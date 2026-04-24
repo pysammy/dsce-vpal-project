@@ -1,1 +1,10 @@
+# OS cruft
+.DS_Store
 
+# Python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+
+# Raw VPAL data 
+data/VPAL/
+*.zip
