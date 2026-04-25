@@ -4,7 +4,7 @@ Data Science in Computational Media CMPM-230-01
 
 # Data Science for Computational Experiences – VPAL Project
 
-This repository contains my project for the UCSC *Data Science for Computational Experiences* course (Spring 2026). It uses the VPAL dataset introduced in Session 2 to explore relationships between player behavior and personality measures.[file:55]
+This repository contains my project for the UCSC *Data Science for Computational Experiences* course (Spring 2026). It uses the VPAL dataset introduced in Session 2 to explore relationships between player behavior and personality measures.
 
 ## Structure
 
