@@ -5,6 +5,6 @@
 __pycache__/
 .ipynb_checkpoints/
 
-# Raw VPAL data 
-data/VPAL/
+# Raw online learning data
+data/online_learning/
 *.zip
