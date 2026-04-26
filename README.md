@@ -1,19 +1,32 @@
 # Data Science for Computational Experiences – Online Learning Project
 
-Data Science in Computational Media CMPM-230-01
+This repository contains my work for the UCSC *Data Science for Computational Experiences* course (Spring 2026). The project focuses on understanding early usage patterns that predict whether learners return to and complete an online course.
 
-## Data Science for Computational Experiences – Online Learning Project
+The main dataset I use is the **Online Learning & Course Consumption** dataset from Kaggle, which summarizes how 500 learners interact with different online learning platforms and courses. Each row corresponds to a single learner and includes variables such as experience level, course type, platform, hours spent per week, course duration, completion status, completion percentage, dropout reason, and satisfaction score.
 
-This repository contains my project for the UCSC *Data Science for Computational Experiences* course (Spring 2026). It uses the **Online Learning & Course Consumption** dataset (from Kaggle) to explore early usage patterns that predict whether learners return to an online course.
+## Repository structure
 
-## Structure
+The repo is organized to keep analysis and raw data clearly separated:
 
-- `data/` – location for raw data files (online learning dataset CSVs). Raw data is not committed to GitHub.
-- `data/data_documentation/` – notes and codebooks describing the variables in the online learning dataset.
-- `ds1c_documentation/` – analysis notebooks (exported from Google Colab), including initial data exploration and later stages.
-- `.gitignore` – ensures that large raw data files and other local artifacts are not uploaded.
+- `data/` – location for raw data files (for example, the Online Learning & Course Consumption CSV). I treat this as a local storage folder and do not commit large raw files to GitHub.
+- `data/data_documentation/` – notes and codebooks describing the dataset and variables.
+- `ds1c_documentation/` – analysis notebooks exported from Google Colab (starting with `01_initial_exploration.ipynb` for Assignment 2).
+- `.gitignore` – configuration to keep large raw data, notebook checkpoints, and other temporary files out of version control.
 
-## Environment
+This structure mirrors the project organization discussed in class and is meant to make it easy for someone else to understand where the data lives and how the analysis is laid out.
 
-Analysis is done in Python 3 using a Google Colab notebook (pandas, numpy, matplotlib, seaborn).
-The main notebook for Assignment 2 is saved in `ds1c_documentation/01_initial_exploration.ipynb` 
+## Environment and tools
+
+I run the analysis in Python 3 using a Google Colab notebook. The main libraries I rely on are:
+
+- `pandas` and `numpy` for loading and transforming the data
+- `matplotlib` and `seaborn` for basic visualizations and exploratory plots
+
+The workflow is:
+
+1. Store the dataset in Google Drive.
+2. Mount Drive in Colab and load the CSV into a pandas DataFrame.
+3. Perform cleaning, exploration, and modeling in Colab.
+4. Periodically download the notebook and save it to the `ds1c_documentation/` folder in this repository.
+
+Anyone who wants to reproduce the analysis can follow the same steps in their own Colab environment, using the same dataset and notebook files in this repo.
