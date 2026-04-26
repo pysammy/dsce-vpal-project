@@ -12,6 +12,7 @@ The repo is organized to keep analysis and raw data clearly separated:
 - `data/data_documentation/` – notes and codebooks describing the dataset and variables.
 - `ds1c_documentation/` – analysis notebooks exported from Google Colab (starting with `01_initial_exploration.ipynb` for Assignment 2).
 - `.gitignore` – configuration to keep large raw data, notebook checkpoints, and other temporary files out of version control.
+- `assignment3/` – Colab notebook for Assignment 3 (VPAL preprocessing pipeline using PersonalityScoresVpal2.csv)
 
 This structure mirrors the project organization discussed in class and is meant to make it easy for someone else to understand where the data lives and how the analysis is laid out.
 
